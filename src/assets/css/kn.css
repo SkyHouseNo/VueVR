@@ -1,0 +1,232 @@
+.vr-btn {
+    width: 180px;
+    text-align: center;
+    line-height: 46px;
+    height: 46px;
+    color: #53b7ff;
+    font-size: 18px;
+    background: url(../images/btn_02.png)no-repeat;
+    background-size: 100%;
+}
+
+.vr-btn:hover {
+    background: url('../images/btn_hover.png')no-repeat;
+    background-size: 100%;
+    color: #21a2ff;
+}
+
+
+/*exchange*/
+.exchanges {
+    margin-top: 149px;
+}
+
+.exchanges .img-wrap{
+    margin-left:300px; 
+}
+
+.exchanges article {
+    padding: 0;
+}
+
+.exchanges section .ex-left article>div {
+    float: left;
+}
+
+.exchanges section .ex-right article>div {
+    float: right;
+}
+.exchanges .banner{
+    padding-left: 100px;
+}
+.img-wrap img {
+    display: block;
+    border: 0;
+    margin: 0 auto;
+}
+
+.img-left {
+    position: relative;
+    height: 192px;
+    width: 166px;
+    padding: 0;
+}
+
+.img-left span {
+    position: absolute;
+    color: #fff;
+    left: 60px;
+}
+
+.img-left span:first-child {
+    top: 30px;
+    font-size: 72px;
+}
+
+.img-left span:nth-child(2) {
+    top: 110px;
+}
+
+.img-left .last{
+    left: 45px;
+}
+
+.img-body {
+    padding: 45px 0 0 16px;
+    color: #666666;
+}
+
+.exchanges section{
+    max-width: 1200px;
+}
+.exchanges .section-2 article {
+    margin-top: 50px;
+}
+
+.exchanges .section-3 {
+    text-align: center;
+}
+
+.exchanges .section-3 h2 {
+    margin: 148px 0 52px;
+}
+
+.exchanges .vr-btn {
+    display: inline-block;
+    margin: 70px auto 50px auto;
+}
+.exchanges .padding{
+    height: 174px;
+}
+.exchanges .k_left{
+    margin: 0;
+}
+.exchanges .img-0 {
+    background: url("../images/time_01.png") no-repeat center top;
+}
+
+.exchanges .img-1 {
+    background: url("../images/time_02.png") no-repeat center top;
+}
+
+.exchanges .img-2 {
+    background: url("../images/time_03.png") no-repeat center top;
+}
+
+.exchanges .img-3 {
+    background: url("../images/time_04.png") no-repeat center top;
+}
+.exchanges .footer{
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+/*exchanges  end*/
+
+
+/*production start*/
+
+
+.production {
+    margin-top: 30px;
+}
+
+.production .form-horizontal {
+    width: 700px;
+    margin: 0 auto;
+}
+.production .team{
+    min-height: 746px;
+    margin-left: 180px;
+}
+.production .team-info>div {
+    margin-top: 10px;
+}
+
+.production .form-group:first-child button {
+    margin-left: 40px;
+}
+
+.pro-title {
+    display: block;
+    margin: 40px 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+h3.pro-title {
+    margin: 0;
+}
+
+.pro-btn {
+    display: inline-block;
+    width: 151px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 41px;
+    color: #21a2ff;
+    font-size: 18px;
+    background: url(../images/btn_03.png)no-repeat;
+    background-size: 100%;
+}
+
+.pro-btn:hover,
+.pro-btn.active {
+    background: url('../images/btn_04.png')no-repeat;
+    background-size: 100%;
+    color: #21a2ff;
+}
+
+.production .radio {
+    padding-top: 6px;
+}
+
+.production .radio label {
+    margin-right: 60px;
+}
+
+.production .checkbox {
+    font-size: 14px;
+}
+
+.production .col-sm-1 {
+    width: 80px;
+    text-align: right;
+    line-height: 34px;
+    padding: 0;
+}
+
+.production .col-sm-8 {
+    width: 300px;
+    margin-left: 4px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.production .submit-wrap {
+    padding-left: 150px;
+}
+
+.production .add-img {
+    height: 30px;
+    background: url(../images/add_hover.png)no-repeat;
+}
+
+.production .add-img:hover {
+    background: url(../images/add.png)no-repeat;
+    cursor: pointer;
+    background-size: 100%;
+}
+
+.production .del-right{
+    float: right;
+    margin-right: 250px;
+    font-weight: 400;
+    color: red;
+    font-size: 24px;
+}
+.production .footer{
+    width: 100%;
+}

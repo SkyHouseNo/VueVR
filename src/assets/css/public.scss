@@ -1,0 +1,25 @@
+/*
+*   Styles, Mixins and those could be reused are better put here
+*/
+
+$themeLightBlue:#21a2ff;
+$themeBlue:#396693;
+$themeDarkBlue:#113456;
+$themeDarkestBlue:#0f2238;
+$themeHoverBlue:#0e2c4a;
+
+$themeDark:#333;
+$themeWhite:#fff;
+
+/*
+*   Flex Mixinx
+*/
+
+@mixin flex($flow:row, $mainD:center, $crossD:center) {
+    display: flex;
+    flex-flow: $flow;
+    /* main direction*/
+    justify-content: $mainD;
+    /* cross direction*/
+    align-items: $crossD;
+}

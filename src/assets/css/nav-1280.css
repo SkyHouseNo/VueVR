@@ -1,0 +1,54 @@
+@media screen and (max-width: 1500px){
+	.container {
+    width: 910px!important;}
+    .indexPage .section2 .detailBtn{
+    	left: 54.5%;
+    }
+    .indexPage .section3 {
+    	margin-left: 140px;
+    }
+    .indexPage .section3 .list .flex-center img{
+    	-webkit-transform: scale(0.8,0.8);
+    	transform: scale(0.8,0.8);
+    padding-right: 15px;
+    }
+   .indexPage  .sec4-con{
+    	margin-left: 140px;
+    }
+    .indexPage .section4 .sec4-list {
+    margin-right: 23px;
+}
+.indexPage .section5 .sec5-1280{
+	margin-left: 220px;
+}
+.indexPage .sec4-container .name{font-size: 22px!important;}
+.indexPage .section5 .flex-center .span1{padding-right: 90px;}
+.indexPage .section5 .sec5-bottom{padding-left: 221px;}
+.indexPage .section5 .media_img{width: 100%;}
+.indexPage .sec5-bottom2{padding-left: 186px;}
+
+/*aboutpage页面*/
+.aboutUsPage .parts{padding-left: 220px;}
+.aboutUsPage .part3 .zanzu_img{width: 100%;}
+.sec5-bottom2{padding-left: 186px;}
+
+/*aboutgame*/
+.aboutGamePage .part1 .part1-con{
+	width: 539px;
+    padding-top: 20px;
+}
+.aboutGamePage .part1 .part1-con h2{
+	font-size: 32px!important;
+}
+.aboutGamePage .part1 .part1-con p{
+	font-size: 15px!important;
+}
+.aboutGamePage .part2 .item{width: 687px;}
+}
+@media screen and (max-width: 640px){
+	.phoneNav{
+        display: block;
+}
+.module-left{display: none;}
+}
+
